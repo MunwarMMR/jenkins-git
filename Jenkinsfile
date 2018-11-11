@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'echo "Hello World"'
+               echo "Hello World"
                 
-                    echo "Multiline shell steps works too"
+               echo "Multiline shell steps works too"
                 bat dir
                 
             }
