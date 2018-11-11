@@ -4,9 +4,9 @@ pipeline {
         stage('Build') {
             steps {
                echo "Hello World"
-                bat ipconfig
+                bat "ipconfig"
                echo "Multiline shell steps works too"
-                bat dir
+                bat "dir"
                 
             }
         }
